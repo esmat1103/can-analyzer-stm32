@@ -2,7 +2,7 @@
 
 A home-made **CANalyzer-like tool**: monitor, decode and inject CAN frames from a PC, tested on a **simulated vehicle ECU** running FreeRTOS with a TouchGFX touchscreen dashboard.
 
-> Mini-project — ING-ISEOC 3 · *Conception de systèmes embarqués connectés*
+> Mini-project · *Conception de systèmes embarqués connectés*
 
 ---
 
