@@ -4,10 +4,6 @@ A home-made **CANalyzer-like tool**: monitor, decode and inject CAN frames from 
 
 > Mini-project — ING-ISEOC 3 · *Conception de systèmes embarqués connectés*
 
-![Demo](docs/demo.gif)
-
-▶️ Full demo video: [docs/demo.mp4](docs/demo.mp4)
-
 ---
 
 ## Overview
@@ -65,7 +61,6 @@ All frames: standard 11-bit IDs, 500 kbit/s, big-endian multi-byte values.
 | `0x100` | Vehicle | 100 ms | `RPM_H RPM_L TEMP+40` | Engine speed (rpm), coolant temperature (°C, offset 40) |
 | `0x200` | Vehicle | 100 ms | `SPEED` | Vehicle speed (km/h) |
 | `0x300` | Vehicle | 1 s | `V_H V_L FUEL` | Battery voltage (1/100 V), fuel level (%) |
-| `0x400` | Vehicle | on change + 1 s | `STATE` | Headlight state (00 off, 01 on) |
 | `0x500` | Tool (PC) | on demand | `CMD` | Headlight command (00 off, 01 on) |
 
 ## Serial protocol (gateway ⇄ PC)
@@ -84,11 +79,11 @@ Human-readable text lines, so the gateway can also be tested with any serial ter
 - 2 × SN65HVD230 CAN transceiver modules (3.3 V, 120 Ω termination on board)
 - CP2102 USB-to-UART adapter
 
-![Wiring](docs/wiring.jpg)
+![Wiring diagram](docs/schema_cablage.png)
 
 | From | To |
 |---|---|
-| F4 `CAN1_TX` / `CAN1_RX` | Transceiver 1 `CTX` / `CRX` |
+| F4 `PD1 (CAN1_TX)` / `PD0 (CAN1_RX)` | Transceiver 1 `CTX` / `CRX` |
 | F7 `PB9 (D14)` / `PB8 (D15)` | Transceiver 2 `CTX` / `CRX` |
 | Transceiver 1 `CANH` / `CANL` | Transceiver 2 `CANH` / `CANL` |
 | CP2102 `TXD` / `RXD` | F4 `PA3` / `PA2` (USART2) |
