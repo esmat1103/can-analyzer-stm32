@@ -1,0 +1,417 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 238,
+              "Green": 241,
+              "Blue": 245
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "titreText",
+            "X": 16,
+            "Y": 8,
+            "Width": 155,
+            "Height": 20,
+            "TextId": "__SingleUse_RWZN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 30,
+              "Green": 41,
+              "Blue": 59
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Phares_textArea",
+            "X": 352,
+            "Y": 14,
+            "Width": 51,
+            "Height": 18,
+            "TextId": "__SingleUse_BBNL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 100,
+              "Green": 116,
+              "Blue": 139
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "carteVitesse",
+            "X": 16,
+            "Y": 48,
+            "Width": 216,
+            "Height": 140,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 217,
+              "Green": 223,
+              "Blue": 231
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "carteRegime",
+            "X": 244,
+            "Y": 48,
+            "Width": 220,
+            "Height": 42,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 217,
+              "Green": 223,
+              "Blue": 231
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "carteTemp",
+            "X": 244,
+            "Y": 97,
+            "Width": 220,
+            "Height": 42,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 217,
+              "Green": 223,
+              "Blue": 231
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "carteBatterie",
+            "X": 244,
+            "Y": 146,
+            "Width": 220,
+            "Height": 42,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 217,
+              "Green": 223,
+              "Blue": 231
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "carteAccel",
+            "X": 16,
+            "Y": 200,
+            "Width": 448,
+            "Height": 56,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 217,
+              "Green": 223,
+              "Blue": 231
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "voyantPhares",
+            "X": 412,
+            "Y": 14,
+            "Width": 52,
+            "Height": 18,
+            "Color": {
+              "Red": 203,
+              "Green": 213,
+              "Blue": 225
+            },
+            "BorderColor": {
+              "Red": 203,
+              "Green": 213,
+              "Blue": 225
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "vitesseText",
+            "X": 16,
+            "Y": 59,
+            "Width": 216,
+            "Height": 80,
+            "TextId": "__SingleUse_3J0M",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 99,
+              "Blue": 235
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_3CF1",
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "uniteVitesse",
+            "X": 16,
+            "Y": 150,
+            "Width": 216,
+            "Height": 20,
+            "TextId": "__SingleUse_S6FG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 100,
+              "Green": 116,
+              "Blue": 139
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "regimeLabel",
+            "X": 256,
+            "Y": 59,
+            "Width": 56,
+            "Height": 18,
+            "TextId": "__SingleUse_XPBK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 100,
+              "Green": 116,
+              "Blue": 139
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "tempLabel",
+            "X": 256,
+            "Y": 108,
+            "Width": 106,
+            "Height": 18,
+            "TextId": "__SingleUse_XX35",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 100,
+              "Green": 116,
+              "Blue": 139
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "batterieLabel",
+            "X": 256,
+            "Y": 157,
+            "Width": 59,
+            "Height": 18,
+            "TextId": "__SingleUse_Z8H6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 100,
+              "Green": 116,
+              "Blue": 139
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "accelLabel",
+            "X": 28,
+            "Y": 219,
+            "Width": 94,
+            "Height": 18,
+            "TextId": "__SingleUse_1155",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 100,
+              "Green": 116,
+              "Blue": 139
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "regimeText",
+            "X": 330,
+            "Y": 57,
+            "Width": 122,
+            "Height": 24,
+            "TextId": "__SingleUse_582X",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 30,
+              "Green": 41,
+              "Blue": 59
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_PS19",
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "tempText",
+            "X": 372,
+            "Y": 106,
+            "Width": 80,
+            "Height": 24,
+            "TextId": "__SingleUse_74NE",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 30,
+              "Green": 41,
+              "Blue": 59
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_CAFY",
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "batterieText",
+            "X": 372,
+            "Y": 155,
+            "Width": 80,
+            "Height": 24,
+            "TextId": "__SingleUse_BEZ3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 30,
+              "Green": 41,
+              "Blue": 59
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_BJIM",
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "Slider",
+            "Name": "accelerateurSlider",
+            "X": 128,
+            "Y": 216,
+            "Width": 324,
+            "Height": 24,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thin_filler_medium.png",
+            "BackgroundSelected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thin_filler_medium.png",
+            "Indicator": "__generated\\alternate_theme_images_widgets_slider_horizontal_thin_round_dark.png",
+            "BackgroundX": 12,
+            "BackgroundY": 9,
+            "IndicatorMax": 300,
+            "ValueMax": 130
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "accelerateurSlider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "accelerateurChange"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../MyApplication.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.27.0",
+  "CreatedBy": "4.27.0"
+}

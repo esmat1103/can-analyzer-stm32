@@ -1,0 +1,39 @@
+# --- STM32CubeIDE : fichiers de compilation ---
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+.metadata/
+.settings/
+
+# --- Bibliotheques ST (regenerees par CubeMX a partir du .ioc) ---
+Drivers/
+Middlewares/
+
+# --- TouchGFX : fichiers generes et compilation ---
+TouchGFX/generated/
+TouchGFX/build/
+TouchGFX/simulator/msvs/
+TouchGFX/simulator/gcc/
+
+# --- Qt Creator ---
+build/
+build-*/
+CMakeLists.txt.user*
+*.user
+
+# --- Divers ---
+.vs/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# --- Script local de preparation (pas besoin de le publier) ---
+preparer_depot.bat
